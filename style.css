@@ -1,0 +1,287 @@
+body {
+    background-color: #33cc66;
+    font-size: 14px;
+}
+
+#container {
+    background: url('img/header.jpg') top left no-repeat;
+    margin-top: 10px;
+    background-size: cover;
+    height: 600px;
+}
+
+#subcontainer {}
+
+header {
+    width: 1180px;
+    margin: 0 auto;
+    height: 600px;
+}
+
+header #logo {
+    margin-top: 170px;
+    margin-left: 110px;
+}
+
+header #slogan {
+    color: #fff;
+    font-size: 24px;
+    margin-top: 35px;
+    margin-left: 110px;
+}
+
+header nav ul {
+    margin-left: 110px;
+    padding: 0;
+
+}
+
+header nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 100%;
+    border-width: 15px;
+}
+
+header nav ul li:hover {
+    background: #33cc66;
+}
+
+#features {
+    background: #fff;
+    margin-top: -17px;
+}
+
+#subfeatures {
+    width: 1180px;
+    margin: 0 auto;
+
+
+}
+
+#subfeatures ul li {
+    display: inline-block;
+    list-style: none;
+    width: 320px;
+    margin: 60px 0;
+    text-align: center;
+    padding: 0;
+}
+
+#subfeatures ul li p {
+    font-size: 16px;
+    color: #989898;
+}
+
+#subfeatures ul li h2 {
+    font-size: 22px
+}
+
+#subfeatures ul li a {
+    border: 1px solid #33cc66;
+    background: #33cc66;
+    border-radius: 200px;
+    border-width: 25px;
+    display: inline-block;
+}
+
+#subfeatures ul #l1 {
+    margin-right: 70px;
+}
+
+#subfeatures ul #l2 {
+    margin-right: 70px;
+}
+
+#subfeatures ul li a:hover {
+    background: rgba(0, 0, 0, 0.7);
+    border: 1px solid rgba(0, 0, 0, 0.0);
+    border-radius: 200px;
+    border-width: 25px;
+}
+
+#preview {
+    background: #e3e3e3;
+    margin-top: -17px;
+}
+
+#subpreview {
+    width: 1180px;
+    margin: 0 auto;
+}
+
+#leftpreview {
+    margin-top: 60px;
+    width: 540px;
+    float: left;
+    margin-right: 110px;
+}
+
+#leftpreview h3 {
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+#leftpreview p {
+    font-size: 16px;
+    color: #8b8b8b;
+    padding-right: 30px;
+    margin-bottom: 30px;
+}
+
+#leftpreview input[type="email"] {
+    height: 50px;
+    width: 300px;
+    font-size: 18px;
+    color: #848484;
+    box-sizing: border-box;
+    padding-left: 25px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    border: 2px solid #e3e3e3;
+}
+
+#leftpreview input[type="submit"] {
+    color: #fff;
+    font-weight: bold;
+    font-size: 22px;
+    height: 50px;
+    width: 140px;
+    background: #33cc66;
+    margin-left: -10px;
+    position: relative;
+    top: 1px;
+    border: 0px solid #33cc66;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+#leftpreview input[type="submit"]:hover {
+    background: #009933;
+    border: 2px solid #009933;
+}
+
+#leftpreview input[type="submit"]:active {
+    position: relative;
+    top: 2px;
+
+}
+
+#rightpreview {
+    box-sizing: border-box;
+    width: 500px;
+    float: right;
+
+}
+
+#rightpreview #video {
+    height: 300px;
+    width: 500px;
+    padding: 50px;
+    margin-left: -80px;
+    margin-bottom: 60px;
+
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both
+}
+
+#testimonial {
+    background: #fff;
+    margin-top: -17px;
+    text-align: center;
+}
+
+#subtestimonial {
+    width: 1180px;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+#subtestimonial #para p {
+    font-family: sans-serif;
+    color: #777;
+    width: 800px;
+    margin: 0 auto;
+    padding-top: 60px;
+    margin-bottom: 30px;
+}
+
+#subtestimonial h4 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#clientimg {
+    margin-bottom: 10px;
+}
+
+#subtestimonial h5 {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+#subtestimonial #pera2 {
+    font-size: 16px;
+    color: #999;
+}
+
+
+
+#subtestimonial ul li {
+    
+    
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 100%;
+    border-width: 15px;
+    
+}
+#subtestimonial ul{
+    padding-bottom: 60px;
+}
+#subtestimonial ul li:hover{
+    background: #66cc99;
+}
+footer{
+    text-align: center;
+    position: relative;
+    background: #cccccc;
+    padding: 30px;
+    margin-top: -17px;
+
+    
+}
+footer ul li{
+    list-style: none;
+    display: inline-block;
+   
+}
+
+footer ul li a{
+    text-decoration: none;
+    padding: 0 10px;
+    color: #999999;
+}
+footer ul li a:hover{
+    color:#333
+}
+
+
+
+
+
+
+
+
+
