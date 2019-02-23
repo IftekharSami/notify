@@ -6,7 +6,7 @@ body {
 
 #container {
     background: url('img/header.jpg') top left no-repeat;
-    margin-top: 10px;
+    margin: 10px auto 0;
     background-size: cover;
     height: 600px;
 }
