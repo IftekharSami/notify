@@ -1,6 +1,7 @@
 body {
     background-color: #33cc66;
     font-size: 14px;
+    position: absolute;
 }
 
 #container {
