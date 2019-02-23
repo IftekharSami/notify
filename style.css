@@ -236,8 +236,8 @@ header nav ul li:hover {
 
 
 #subtestimonial ul li {
-    
-    
+
+
     list-style: none;
     display: inline-block;
     margin-right: 10px;
@@ -245,43 +245,39 @@ header nav ul li:hover {
     background: rgba(0, 0, 0, 0.3);
     border-radius: 100%;
     border-width: 15px;
-    
+
 }
-#subtestimonial ul{
+
+#subtestimonial ul {
     padding-bottom: 60px;
 }
-#subtestimonial ul li:hover{
+
+#subtestimonial ul li:hover {
     background: #66cc99;
 }
-footer{
+
+footer {
     text-align: center;
     position: relative;
     background: #cccccc;
     padding: 30px;
     margin-top: -17px;
 
-    
-}
-footer ul li{
-    list-style: none;
-    display: inline-block;
-   
+
 }
 
-footer ul li a{
+footer ul li {
+    list-style: none;
+    display: inline-block;
+
+}
+
+footer ul li a {
     text-decoration: none;
     padding: 0 10px;
     color: #999999;
 }
-footer ul li a:hover{
-    color:#333
+
+footer ul li a:hover {
+    color: #333
 }
-
-
-
-
-
-
-
-
-
